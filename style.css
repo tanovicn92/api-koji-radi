@@ -62,13 +62,18 @@ button:hover {
 	border-radius: 4px;
 	border: 2px dashed white;
 }
+img {
+	height: 420px;
+	width: 240px;
+}
 .divRez {
 	background-color: gray;
 	border-radius: 8px;
 	margin: auto;
-	width: 90%;
-	display: flex;
-	flex-wrap: wrap;
+	width: 24%;
+	display: inline-block;
+/*	flex-wrap: wrap; */
+	overflow: auto;
 }
 .divRez:hover {
 	border: 4px solid #333;
@@ -76,4 +81,6 @@ button:hover {
 #rezultat {
 	display: flex;  
 	flex-wrap: wrap;
+	
 }
+
